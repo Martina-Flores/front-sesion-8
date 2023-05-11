@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Martina Flores</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+        <style>
+            @media (min-width: 768px) {
+                .container { max-width: 720px;}
+            }
+        </style>
+    </head>
+    <body class="bg-secondary-subtle bg-gradient">
+        <header class="container">
+            <div class="row">
+                <div class="col-12 py-3">
+                    <h2 class="text-center mt-5 fs-5 fw-bolder">Martina Flores</h2>
+                    <h1 class="text-center mt-3 mb-4 fs-2">CATÁLOGO DE VIDEOJUEGOS</h1>
+                    <p class="lead text-center mx-auto w-75">Este Sitio Web permitirá descubrir/explorar videojuegos que sean del interés de los usuarios.</p>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 py-3">
+                            <h3 class="text-center py-3">PROTO-PERSONAS</h3>
+                            <!--PROTO-PERSONA 1-->
+                            <div class="row align-items-center bg-white rounded mb-4 g-0 shadow-sm">
+                                <div class="col-sm-4">
+                                    <img src="img/proto-persona-1.png" class="w-100 rounded" />
+                                </div>
+                                <div class="col-sm-8 p-4 small">
+                                    <h4>Sota (38 años)</h4>
+                                    <p>Vive en Japón con sus padres. Prefiere estar soltero. Terminó la universidad pero no ejerció en lo que estudió, decidió convertirse en Streamer y vive de eso haciendo streams todos los días. Sota stremea solo videojuegos del tipo Shooter ya que es donde más público lo ve. Sota es baneado de las partidas por su actitud tóxica hacia los demás jugadores, a pesar de ello él no va a dejar de molestar a los jugadores porque así le da más contenido a su público.    </p>
+                                    <p class="text-secondary">Sota busca traer más contenido a su canal para ganar más popularidad, pero manteniendose dentro de sus parametros para no perder al público que lo ve habitualmente. Hace sus streams en un PC de gama alta, él inviertió mucho para poder armarse la PC que él quería, y juega durante las noches.  </p>
+                                </div>
+                            </div>
+                            <!--PROTO-PERSONA 2-->
+                            <div class="row align-items-center bg-white rounded mb-4 g-0 shadow-sm">
+                                <div class="col-sm-4 order-sm-2">
+                                    <img src="img/proto-persona-2.png" class="w-100 rounded" />
+                                </div>
+                                <div class="col-sm-8 order-sm-1 p-4 small">
+                                    <h4>Sebastian (20 años)</h4>
+                                    <p>Estudiante universitario. Vive en España con su mamá y perrito. Está en una relación sentimental con una compañera de su universidad. A Sebastian le gustan mucho los videojuegos, juega desde que era pequeño. El género de videojuego que más le gusta jugar son los de Acción, pero no se cierra solamente a ese género, de vez en cuando le gusta variar con juegos nuevos. Durante la semana se hace un espacio para jugar en la noche con sus amigos de la universidad y cuando tiene poco tiempo libre busca videos de gameplays. Sebastian nunca </p>
+                                    <p class="text-secondary">Sebastian busca constantemente nuevos videojuegos en su notebook cuando está aburrido de los juegos que juega siempre.</p>
+                                </div>
+                            </div>
+                            <!--PROTO-PERSONA 3-->
+                            <div class="row align-items-center bg-white rounded mb-5 g-0 shadow-sm">
+                                <div class="col-sm-4">
+                                    <img src="img/proto-persona-3.png" class="w-100 rounded" />
+                                </div>
+                                <div class="col-sm-8 p-4 small">
+                                    <h4>Alicia (14 años)</h4>
+                                    <p>Alicia está cursando la preparatoria en un escuela de Estados Unidos. Está viviendo con su tía. Alicia es una adicta a los videojuegos, no hace sus tareas por estar jugando y se queda hasta altas horas de la noche o incluso no duerme por jugar. Alicia juega todo lo que encuentre, no tiene preferencias hacia algún tipo de videojuego</p>
+                                    <p class="text-secondary">Alicia juega en su celular y en su notebook, pero prefiere los juegos de celular para poder jugarlos a donde vaya ya que posee datos ilimitados. Ella busca juegos todo el tiempo. </p>
+                                </div>
+                            </div>
+                            <!--NO MÁS PROTO-PERSONAS-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-light-subtle border-top border-bottom border-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 py-3">
+                            <h3 class="text-center mt-5 mb-4 fs-4">ANTECEDENTES</h3>
+                            <div class="row row-cols-1 row-cols-sm-3 g-4 pb-5" id="antecedentes"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container text-white-50">
+                <div class="row py-3">
+                    <div class="col-12">
+                        <p class="d-flex justify-content-between small py-1 px-4 m-0">
+                            <a href="index.html" class="fw-bold">Nombre del proyecto</a>
+                            <a href="#" class="fw-bold">Martina Flores © 2022</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+            document.querySelectorAll("a").forEach((a) => a.classList.add("link-dark"));
+            var datos = [
+                {
+                    thumbnail: "img/antecedente-thumb-0.jpg",
+                    title: "Steam",
+                    screenshot: "img/antecedente-0.png",
+                    descriptor: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed ipsum magna. Curabitur euismod quis est sit amet porttitor. Integer a posuere odio. Mauris risus odio, dapibus non enim non, luctus tempus odio. Donec pulvinar augue dui. In porttitor cursus lectus sollicitudin maximus. Nam ut nunc et mi blandit semper.",
+                    url: "https://www.reuters.com/graphics/ABORTION-USA/OVERTURNED/gdpzyaangvw/",
+                },
+                {
+                    thumbnail: "img/antecedente-thumb-1.jpg",
+                    title: "Epic Games",
+                    screenshot: "img/antecedente-1.png",
+                    descriptor: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed ipsum magna. Curabitur euismod quis est sit amet porttitor. Integer a posuere odio. Mauris risus odio, dapibus non enim non, luctus tempus odio. Donec pulvinar augue dui. In porttitor cursus lectus sollicitudin maximus. Nam ut nunc et mi blandit semper.",
+                    url: "https://www.reuters.com/graphics/TAIWAN-CHINA/byvrjrmgnve/",
+                },
+                {
+                    thumbnail: "img/antecedente-thumb-2.jpg",
+                    title: "Origin",
+                    screenshot: "img/antecedente-2.png",
+                    descriptor: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed ipsum magna. Curabitur euismod quis est sit amet porttitor. Integer a posuere odio. Mauris risus odio, dapibus non enim non, luctus tempus odio. Donec pulvinar augue dui. In porttitor cursus lectus sollicitudin maximus. Nam ut nunc et mi blandit semper.",
+                    url: "https://multimedia.scmp.com/culture/article/valentine/",
+                },
+            ];
+            datos.forEach((d, i) => {
+                document.getElementById("antecedentes").innerHTML += '<div class="col"><div class="card border-0 h-100 shadow-sm"><img src="' + d.thumbnail + '" class="card-img-top"/><div class="card-body"><h6 class="card-title m-0">' + d.title + '</h6></div><div class="card-footer small border-0"><a href="#" onclick = "detalle(' + i + ')" class="stretched-link text-secondary text-decoration-none">Ver análisis &rarr;</a></div></div></div>';
+            });
+
+            const antecedente = document.querySelector("main");
+            function detalle(nro) {
+                antecedente.innerHTML = '<div class="container"><div class="row"><div class="col-11 mx-auto"><p class="text-center my-4"><a href="#" onClick="window.location.reload()" class="btn btn-light btn-sm shadow-sm fs-6">Volver</a></p><p><a href="' + datos[nro].url + '" class="fw-bold text-dark text-decoration-none" target="_blank">' + datos[nro].title + '</a> | ' + datos[nro].descriptor + '</p><img src="' + datos[nro].screenshot + '" class="w-100 mb-5"></div></div></div>';
+            }
+        </script>
+    </body>
+</html>
